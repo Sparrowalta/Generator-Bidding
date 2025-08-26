@@ -1,0 +1,269 @@
+Starting ABPSO Market Simulation...
+Iteration 1
+  Optimizing Firm 1
+  Optimizing Firm 2
+  Optimizing Firm 3
+  Optimizing Firm 4
+  Optimizing Firm 5
+  Optimizing Firm 6
+  Optimizing Firm 7
+  Optimizing Firm 8
+  Optimizing Firm 9
+  Optimizing Firm 10
+Iteration 2
+  Optimizing Firm 1
+  Optimizing Firm 2
+  Optimizing Firm 3
+  Optimizing Firm 4
+  Optimizing Firm 5
+  Optimizing Firm 6
+  Optimizing Firm 7
+  Optimizing Firm 8
+  Optimizing Firm 9
+  Optimizing Firm 10
+  Average price difference: $2.90/MWh
+  Average market price: $46.12/MWh
+Iteration 3
+  Optimizing Firm 1
+  Optimizing Firm 2
+  Optimizing Firm 3
+  Optimizing Firm 4
+  Optimizing Firm 5
+  Optimizing Firm 6
+  Optimizing Firm 7
+  Optimizing Firm 8
+  Optimizing Firm 9
+  Optimizing Firm 10
+  Average price difference: $3.68/MWh
+  Average market price: $49.79/MWh
+Iteration 4
+  Optimizing Firm 1
+  Optimizing Firm 2
+  Optimizing Firm 3
+  Optimizing Firm 4
+  Optimizing Firm 5
+  Optimizing Firm 6
+  Optimizing Firm 7
+  Optimizing Firm 8
+  Optimizing Firm 9
+  Optimizing Firm 10
+  Average price difference: $2.59/MWh
+  Average market price: $47.20/MWh
+Iteration 5
+  Optimizing Firm 1
+  Optimizing Firm 2
+  Optimizing Firm 3
+  Optimizing Firm 4
+  Optimizing Firm 5
+  Optimizing Firm 6
+  Optimizing Firm 7
+  Optimizing Firm 8
+  Optimizing Firm 9
+  Optimizing Firm 10
+  Average price difference: $0.35/MWh
+  Average market price: $47.30/MWh
+Converged after 5 iterations!
+
+============================================================
+FINAL RESULTS
+============================================================
+
+Final Market Prices ($/MWh):
+Hour  1: $ 46.66
+Hour  2: $ 47.03
+Hour  3: $ 46.72
+Hour  4: $ 47.03
+Hour  5: $ 46.72
+Hour  6: $ 47.10
+Hour  7: $ 47.10
+Hour  8: $ 47.60
+Hour  9: $ 47.75
+Hour 10: $ 47.88
+Hour 11: $ 47.88
+Hour 12: $ 47.13
+Hour 13: $ 47.22
+Hour 14: $ 47.60
+Hour 15: $ 46.75
+Hour 16: $ 46.72
+Hour 17: $ 47.22
+Hour 18: $ 47.61
+Hour 19: $ 47.75
+Hour 20: $ 47.75
+Hour 21: $ 47.88
+Hour 22: $ 47.88
+Hour 23: $ 47.10
+Hour 24: $ 47.22
+
+Final Firm Profits:
+Firm 1: $107,734.91
+Firm 2: $333,763.33
+Firm 3: $ 83,861.45
+Firm 4: $301,628.10
+Firm 5: $189,637.70
+Firm 6: $105,498.70
+Firm 7: $ 87,624.81
+Firm 8: $ 42,353.28
+Firm 9: $118,165.00
+Firm 10: $198,385.11
+
+Total System Profit: $1,568,652.38
+Average Market Price: $ 47.30/MWh
+
+==================================================
+ECONOMIC RATIONALITY CHECK
+==================================================
+✅ Firm 1 profit: $107,734.91
+✅ Firm 2 profit: $333,763.33
+✅ Firm 3 profit: $83,861.45
+✅ Firm 4 profit: $301,628.10
+✅ Firm 5 profit: $189,637.70
+✅ Firm 6 profit: $105,498.70
+✅ Firm 7 profit: $87,624.81
+✅ Firm 8 profit: $42,353.28
+✅ Firm 9 profit: $118,165.00
+✅ Firm 10 profit: $198,385.11
+
+--------------------------------------------------
+MARGINAL COST ANALYSIS
+--------------------------------------------------
+
+Firm 1 (Qmax=500 MW):
+  ✅ Block 1: Price=$46.66 ≥ MC=$46.65 (Qty=49.3)
+  ✅ Block 2: Price=$47.13 ≥ MC=$46.79 (Qty=64.4)
+  ✅ Block 3: Price=$47.61 ≥ MC=$47.34 (Qty=121.6)
+  ✅ Block 4: Price=$48.13 ≥ MC=$47.89 (Qty=178.9)
+  ✅ Block 5: Price=$48.56 ≥ MC=$48.26 (Qty=218.2)
+  ✅ Block 6: Price=$49.04 ≥ MC=$48.81 (Qty=275.4)
+  ✅ Block 7: Price=$49.69 ≥ MC=$49.35 (Qty=332.7)
+  ✅ Block 8: Price=$51.02 ≥ MC=$49.90 (Qty=389.9)
+  ✅ Block 9: Price=$51.08 ≥ MC=$50.40 (Qty=442.8)
+  ✅ Block 10: Price=$51.08 ≥ MC=$50.95 (Qty=500.0)
+  ✅ All blocks economically rational
+
+Firm 2 (Qmax=600 MW):
+  ✅ Block 1: Price=$46.66 ≥ MC=$33.38 (Qty=91.2)
+  ✅ Block 2: Price=$46.72 ≥ MC=$33.58 (Qty=133.6)
+  ✅ Block 3: Price=$46.75 ≥ MC=$34.01 (Qty=224.8)
+  ✅ Block 4: Price=$47.03 ≥ MC=$34.17 (Qty=259.7)
+  ✅ Block 5: Price=$47.22 ≥ MC=$34.60 (Qty=350.8)
+  ✅ Block 6: Price=$47.60 ≥ MC=$34.71 (Qty=373.7)
+  ✅ Block 7: Price=$47.75 ≥ MC=$35.14 (Qty=464.9)
+  ✅ Block 8: Price=$47.88 ≥ MC=$35.14 (Qty=464.9)
+  ✅ Block 9: Price=$48.32 ≥ MC=$35.43 (Qty=526.4)
+  ✅ Block 10: Price=$48.73 ≥ MC=$35.78 (Qty=600.0)
+  ✅ All blocks economically rational
+
+Firm 3 (Qmax=250 MW):
+  ✅ Block 1: Price=$42.63 ≥ MC=$42.51 (Qty=12.0)
+  ✅ Block 2: Price=$42.87 ≥ MC=$42.63 (Qty=24.3)
+  ✅ Block 3: Price=$43.10 ≥ MC=$42.97 (Qty=61.0)
+  ✅ Block 4: Price=$43.33 ≥ MC=$43.25 (Qty=91.3)
+  ✅ Block 5: Price=$43.57 ≥ MC=$43.25 (Qty=91.3)
+  ✅ Block 6: Price=$43.80 ≥ MC=$43.60 (Qty=128.8)
+  ✅ Block 7: Price=$44.03 ≥ MC=$43.76 (Qty=146.0)
+  ✅ Block 8: Price=$47.64 ≥ MC=$43.87 (Qty=157.8)
+  ✅ Block 9: Price=$48.49 ≥ MC=$44.35 (Qty=208.9)
+  ✅ Block 10: Price=$49.54 ≥ MC=$44.73 (Qty=250.0)
+  ✅ All blocks economically rational
+
+Firm 4 (Qmax=1100 MW):
+  ✅ Block 1: Price=$41.30 ≥ MC=$40.12 (Qty=0.0)
+  ✅ Block 2: Price=$50.77 ≥ MC=$40.12 (Qty=0.0)
+  ✅ Block 3: Price=$51.11 ≥ MC=$42.94 (Qty=322.7)
+  ✅ Block 4: Price=$52.20 ≥ MC=$42.94 (Qty=322.7)
+  ✅ Block 5: Price=$52.57 ≥ MC=$45.75 (Qty=645.5)
+  ✅ Block 6: Price=$52.82 ≥ MC=$48.57 (Qty=968.2)
+  ✅ Block 7: Price=$53.22 ≥ MC=$48.57 (Qty=968.2)
+  ✅ Block 8: Price=$53.64 ≥ MC=$48.61 (Qty=973.1)
+  ✅ Block 9: Price=$54.53 ≥ MC=$48.61 (Qty=973.1)
+  ✅ Block 10: Price=$55.53 ≥ MC=$49.72 (Qty=1100.0)
+  ✅ All blocks economically rational
+
+Firm 5 (Qmax=585 MW):
+  ✅ Block 1: Price=$42.21 ≥ MC=$41.91 (Qty=19.8)
+  ✅ Block 2: Price=$42.67 ≥ MC=$42.48 (Qty=92.2)
+  ✅ Block 3: Price=$43.14 ≥ MC=$42.64 (Qty=113.4)
+  ✅ Block 4: Price=$43.65 ≥ MC=$43.21 (Qty=185.9)
+  ✅ Block 5: Price=$44.04 ≥ MC=$43.77 (Qty=258.4)
+  ✅ Block 6: Price=$44.49 ≥ MC=$44.28 (Qty=323.4)
+  ✅ Block 7: Price=$44.95 ≥ MC=$44.71 (Qty=378.6)
+  ✅ Block 8: Price=$45.40 ≥ MC=$45.27 (Qty=451.1)
+  ✅ Block 9: Price=$46.41 ≥ MC=$45.75 (Qty=512.5)
+  ✅ Block 10: Price=$47.10 ≥ MC=$46.32 (Qty=585.0)
+  ✅ All blocks economically rational
+
+Firm 6 (Qmax=3000 MW):
+  ✅ Block 1: Price=$52.57 ≥ MC=$51.81 (Qty=350.1)
+  ✅ Block 2: Price=$58.79 ≥ MC=$52.94 (Qty=421.3)
+  ✅ Block 3: Price=$63.91 ≥ MC=$59.71 (Qty=849.0)
+  ✅ Block 4: Price=$69.39 ≥ MC=$66.49 (Qty=1276.8)
+  ✅ Block 5: Price=$69.46 ≥ MC=$68.85 (Qty=1426.0)
+  ✅ Block 6: Price=$74.21 ≥ MC=$69.28 (Qty=1453.2)
+  ✅ Block 7: Price=$75.57 ≥ MC=$73.46 (Qty=1716.7)
+  ✅ Block 8: Price=$81.64 ≥ MC=$80.23 (Qty=2144.5)
+  ✅ Block 9: Price=$87.71 ≥ MC=$87.01 (Qty=2572.2)
+  ✅ Block 10: Price=$93.78 ≥ MC=$93.78 (Qty=3000.0)
+  ✅ All blocks economically rational
+
+Firm 7 (Qmax=1528 MW):
+  ✅ Block 1: Price=$47.66 ≥ MC=$47.59 (Qty=150.7)
+  ✅ Block 2: Price=$52.61 ≥ MC=$52.58 (Qty=304.7)
+  ✅ Block 3: Price=$57.56 ≥ MC=$57.46 (Qty=455.2)
+  ✅ Block 4: Price=$67.11 ≥ MC=$62.45 (Qty=609.2)
+  ✅ Block 5: Price=$67.47 ≥ MC=$67.44 (Qty=763.1)
+  ✅ Block 6: Price=$72.42 ≥ MC=$72.28 (Qty=912.6)
+  ✅ Block 7: Price=$77.37 ≥ MC=$77.25 (Qty=1066.1)
+  ✅ Block 8: Price=$82.32 ≥ MC=$82.24 (Qty=1220.1)
+  ✅ Block 9: Price=$88.05 ≥ MC=$87.23 (Qty=1374.0)
+  ⚠️  Block 10: Price=$92.22 < MC=$92.22 (Qty=1528.0)
+
+Firm 8 (Qmax=2000 MW):
+  ✅ Block 1: Price=$52.68 ≥ MC=$52.54 (Qty=221.6)
+  ✅ Block 2: Price=$55.28 ≥ MC=$52.79 (Qty=228.7)
+  ✅ Block 3: Price=$68.71 ≥ MC=$60.38 (Qty=442.5)
+  ✅ Block 4: Price=$68.79 ≥ MC=$65.23 (Qty=579.3)
+  ✅ Block 5: Price=$75.39 ≥ MC=$75.31 (Qty=863.4)
+  ✅ Block 6: Price=$85.47 ≥ MC=$75.31 (Qty=863.4)
+  ✅ Block 7: Price=$85.48 ≥ MC=$85.39 (Qty=1147.6)
+  ✅ Block 8: Price=$98.69 ≥ MC=$95.47 (Qty=1431.7)
+  ✅ Block 9: Price=$105.57 ≥ MC=$105.55 (Qty=1715.9)
+  ✅ Block 10: Price=$116.68 ≥ MC=$115.63 (Qty=2000.0)
+  ✅ All blocks economically rational
+
+Firm 9 (Qmax=403 MW):
+  ✅ Block 1: Price=$42.94 ≥ MC=$42.46 (Qty=0.0)
+  ✅ Block 2: Price=$43.92 ≥ MC=$43.22 (Qty=62.8)
+  ✅ Block 3: Price=$43.98 ≥ MC=$43.97 (Qty=125.6)
+  ✅ Block 4: Price=$48.02 ≥ MC=$44.73 (Qty=188.3)
+  ✅ Block 5: Price=$48.72 ≥ MC=$45.49 (Qty=251.1)
+  ✅ Block 6: Price=$49.76 ≥ MC=$46.25 (Qty=313.9)
+  ✅ Block 7: Price=$52.69 ≥ MC=$46.25 (Qty=313.9)
+  ✅ Block 8: Price=$52.71 ≥ MC=$47.01 (Qty=376.7)
+  ✅ Block 9: Price=$52.73 ≥ MC=$47.33 (Qty=403.0)
+  ✅ Block 2: Price=$48.63 ≥ MC=$48.60 (Qty=439.0)
+  ✅ Block 3: Price=$53.44 ≥ MC=$52.53 (Qty=758.3)
+  ✅ Block 4: Price=$67.11 ≥ MC=$59.61 (Qty=1334.0)
+  ✅ Block 5: Price=$72.72 ≥ MC=$61.92 (Qty=1521.6)
+  ✅ Block 6: Price=$74.00 ≥ MC=$69.01 (Qty=2097.3)
+  ✅ Block 7: Price=$82.00 ≥ MC=$76.09 (Qty=2672.9)
+  ✅ Block 8: Price=$84.86 ≥ MC=$83.18 (Qty=3248.6)
+  ✅ Block 9: Price=$91.06 ≥ MC=$90.26 (Qty=3824.3)
+  ✅ Block 10: Price=$102.09 ≥ MC=$97.34 (Qty=4400.0)
+  ✅ All blocks economically rational
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
