@@ -9,7 +9,7 @@ NUM_FIRMS = 10
 NUM_BLOCKS = 10
 NUM_HOURS = 24
 
-# Generator parameters from Table 6.23
+# Generator parameters
 FIRM_PARAMS = [
     {'a2': 46.18000, 'a3': 0.00477,  'Qmax': 500},
     {'a2': 32.95070, 'a3': 0.002357, 'Qmax': 600},
@@ -636,3 +636,4 @@ if __name__ == "__main__":
     
     # Visualize results
     visualize_results(market_prices_per_iter, final_profits, firm_bids)
+
